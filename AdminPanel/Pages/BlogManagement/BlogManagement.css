@@ -1,0 +1,103 @@
+
+.card {
+    background-color: #1a1a1a; 
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    text-align: center;
+   
+  }
+
+
+/* Container for the table */
+.table-container {
+    margin: 20px 0;
+    overflow-x: auto; 
+    text-align: center;
+   
+  
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  /* Header cells */
+  table th {
+   
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Data cells */
+  table td {
+    padding: 1rem;
+    background-color: #333;
+    color: #ddd;
+    text-align: center;
+  }
+  
+  /* Alternate row styling */
+  table tr:nth-child(even) {
+    background-color: #444;
+  }
+  
+  /* Delete button */
+  .delete-button {
+    background-color:#ef0f0f;
+    color: #fff;
+    
+  }
+  
+  /* Hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+
+      
+      /* Table container inside the card */
+      .card .table-container {
+        overflow-x: auto; 
+        margin-top: 1rem; 
+        padding-top: 1rem;
+      }
+      .loader {
+        border-top: 16px solid #007bff;
+        border-bottom: 16px solid #007bff;
+      }
+      /* Card Group Container */
+.card-group {
+  display: flex;
+  align-items: center; /* Vertically centers items */
+  justify-content: space-between; /* Distributes space between button and heading */
+  background-color: #1a1a1a; /* Dark background matching the card */
+
+}
+
+
+/* Heading inside Card Group */
+.card-group h3 {
+  color: #007bff; /* Blue color for heading text */
+  font-size: 1.5rem; /* Adjust size for prominence */
+  font-weight: 600; /* Semi-bold text */
+  text-align: center; /* Center-align heading */
+  margin: 0; /* Removes default margin */
+  flex-grow: 1; /* Allows heading to occupy remaining space */
+  font-family: 'Helvetica', sans-serif; /* Consistent font styling */
+}
+
+
+      
+      
+      
+      
+
+  
+ 
+  
+  
